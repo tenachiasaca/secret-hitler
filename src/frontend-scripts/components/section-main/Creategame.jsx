@@ -697,11 +697,11 @@ export default class Creategame extends React.Component {
 						powers: ['bullet', 'bullet', 'bullet', 'bullet', 'bullet'], // last "power" is always a fas victory
 						hitlerZone: 4, // 1-5
 						vetoZone: 5, // 1-5, must be larger than fas track state
-						fascistCount: 2, // 1-3, does not include hit
+						fascistCount: 1, // 1-3, does not include hit
 						hitKnowsFas: true,
 						fasCanShootHit: true,
-						deckState: { lib: 6, fas: 19 }, // includes tracks cards; 6 deck + 1 track = 5 in deck
-						trackState: { lib: 0, fas: 0 }
+						deckState: { lib: 5, fas: 19 }, // includes tracks cards; 6 deck + 1 track = 5 in deck
+						trackState: { lib: 2, fas: 0 }
 					}
 				});
 				break;
